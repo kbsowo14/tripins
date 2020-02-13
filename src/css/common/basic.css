@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+/*
+font-family: 'Noto Sans KR', sans-serif; 100 300 400 500 700 900
+*/
+
+body {
+    width: 100%;
+    margin: 0;
+    color: #313131;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+ul {
+    font-size: 0px;
+}
+.group {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* clear-fix */
+.cfix:before, .cfix:after {display: block; content: '';}
+.cfix:after {clear: both;}
+
+/* outline-hidden */
+.hidden {display: none;}
